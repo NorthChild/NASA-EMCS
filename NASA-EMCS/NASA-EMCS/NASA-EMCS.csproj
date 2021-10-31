@@ -7,4 +7,40 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\01 - map.png" />
+    <None Remove="Images\01 - nasaLogoPix.png" />
+    <None Remove="Images\02 - LiftOffPx.png" />
+    <None Remove="Images\03-decoupPIX.png" />
+    <None Remove="Images\04 - successfull_deorbit.png" />
+    <None Remove="Images\05 - docking.png" />
+    <None Remove="Images\06 - experiment1.png" />
+    <None Remove="Images\07 - experiment2.png" />
+    <None Remove="Images\08 - re-entry.png" />
+    <None Remove="Images\09 - splash-down.png" />
+    <None Remove="Images\10 - failure.png" />
+    <None Remove="Images\LiftOffPx.png" />
+    <None Remove="Images\nasaLogoPix.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NASA-EMCS_Logic\NASA-EMCS_Logic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\01 - map.png" />
+    <Resource Include="Images\01 - nasaLogoPix.png" />
+    <Resource Include="Images\02 - LiftOffPx.png" />
+    <Resource Include="Images\03-decoupPIX.png" />
+    <Resource Include="Images\04 - successfull_deorbit.png" />
+    <Resource Include="Images\05 - docking.png" />
+    <Resource Include="Images\06 - experiment1.png" />
+    <Resource Include="Images\07 - experiment2.png" />
+    <Resource Include="Images\08 - re-entry.png" />
+    <Resource Include="Images\09 - splash-down.png" />
+    <Resource Include="Images\10 - failure.png" />
+    <Resource Include="Images\LiftOffPx.png" />
+    <Resource Include="Images\nasaLogoPix.png" />
+  </ItemGroup>
+
 </Project>
