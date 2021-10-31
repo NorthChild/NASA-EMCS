@@ -1,2 +1,2 @@
-# NASA-MSEC
-NASA Mission Control Educational Simulation
+# NASA-EMCS
+NASA Educational Mission Control Simulation
